@@ -1,0 +1,31 @@
+cd..
+docker images
+docker search alpine
+docker pull alpine
+docker images
+docker run -it --name containername alpine
+docker container ls -a
+docker container rm container id num(take
+docker container ls -a
+docker rmi alpine
+docker images
+
+
+
+
+cd..
+docker network ls
+docker network inspect none
+ docker network inspect host
+ docker network create --driver bridge srinidhi
+ docker network ls
+ docker pull 
+ docker pull alpine
+ docker run -it --name conatinername alpine
+ docker container ls -a
+ docker network connect srinidhi containername
+ docker network inspect srinidhi
+ docker network disconnect srinidhi container name
+ docker network inspect srinidhi
+ docker network ls
+ 
